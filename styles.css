@@ -1,22 +1,40 @@
 * {
     background-color: #8ED0F8;
-    outline: 2px solid red;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 h1 {
-    font-size: 90px;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    margin-bottom: 15px;
+
 }
 
 .largeText{
-    font-size: 70px;
-}
-
-.buttonLike {
-    background-color: #514E82;
+    font-size: 50px;
 }
 
 .recipes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px
+
 }
 
 
